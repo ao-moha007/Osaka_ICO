@@ -17,8 +17,11 @@
   },
   "devDependencies": {
     "@nomicfoundation/hardhat-toolbox": "^2.0.2",
+    "@nomiclabs/hardhat-ethers": "^2.2.3",
     "ethers": "^5.7.2",
-    "hardhat": "^2.22.16"
+    "hardhat": "^2.22.16",
+    "hardhat-gas-reporter": "^1.0.8",
+    "jsdoc": "^4.0.4",
+    "react-docgen": "^7.1.1"
   }
-  
 }
