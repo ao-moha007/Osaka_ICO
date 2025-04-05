@@ -1,0 +1,132 @@
+
+.transfer_box{
+    display: grid;
+    grid-template-columns: 2.5fr 1.5fr;
+    gap : 2rem;
+    padding-top: 3rem ;
+    
+    width: 100%;
+    margin: auto;
+    
+
+
+}
+
+.transfer_box h2 {
+ color : #ffcad4;
+
+}
+
+.transfer_box_left{
+    background-image : linear-gradient(135deg,#49138c,#341477);
+    padding: 1rem;
+    border-radius: .5rem;
+    line-height: 0;
+    box-shadow: 0 6px 10px rgb(0,0,0/10%) ;
+    margin-bottom: 5rem;
+    
+}
+.transfer_box_left h2{
+    
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+
+}
+.transfer_box_left_box{
+    display: grid;
+    gap: 1rem ;
+    align-items: center;
+    background-color: #2b0c65;
+    padding: 1.5rem;
+    border-radius: 1.5rem;
+    grid-template-columns: repeat(2,1fr);
+
+}
+.transfer_box_left_box p{
+    padding: 1.5rem;
+    border-radius: 2rem;
+    background-color: #2b0c65;
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 1rem;
+    color: #fff;
+    box-shadow: 0 6px 10px rgb(0,0,0/10%) ;
+}
+.transfer_box_left_box span{
+    display: block;
+    margin-top: 2rem;
+    background-image : linear-gradient(135deg,#49138c,#341477);
+    padding: 1.5rem 1rem;
+    font-size: .9rem;
+    border-radius: .5rem;
+
+
+
+}
+.funtoken_img{
+    border-radius: 50%;
+
+}
+/* //RIGHT */
+.transfer_box_right{
+    background-image : linear-gradient(135deg,#49138c,#341477);
+    padding: 1rem;
+    border-radius: .5rem;
+    line-height: 0;
+    box-shadow: 0 6px 10px rgb(0,0,0/10%) ;
+    margin-bottom: 5rem;
+}
+.transfer_box_right h2{
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 2rem;
+
+}
+.transfer_box_right input{
+    width: 100%;
+    background-color: #2b0c65;
+    border : 0;
+    outline: none;
+    padding: 1rem;
+    border-radius: 1rem;
+    color: #fff;
+    margin-bottom: .5rem;
+
+
+}
+.transfer_box_right input::placeholder{
+    color: #fff;
+    font-family: "Josefin Sans", sans-serif;
+
+}
+.transfer_box_right_block{
+    padding: 1.5rem;
+    margin-bottom: .5rem;
+}
+.transfer_box_right_btn{
+    text-align: center;
+    padding: .5rem;
+    width : 3 rem;
+    
+
+}
+.transfer_box_right_btn button{
+    background-color:grey ;
+    border: 0;
+    padding: 1rem 1.5rem;
+    border-radius: .5rem;
+    cursor: pointer;
+    color : #ffcad4;
+    font-family: "Josefin Sans", sans-serif;
+    box-shadow: 0 6px 10px rgb(0,0,0/10%) ;
+   
+}
+@media screen and (max-width : 76em){
+    .transfer_box{
+        grid-template-columns: 1fr;
+
+    }
+    .transfer_box_left_box{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+}
